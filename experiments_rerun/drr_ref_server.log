@@ -1,0 +1,14 @@
+Scheduling policy: drr
+Quantum: 4096 bytes
+Serving directory: /tmp/tmp.tvVHbqBMz0/server_files
+Server listening on 127.0.0.1:9000
+
+Received shutdown signal, draining...
+
+=== Shutdown summary ===
+Scheduler:        drr
+GET requests:     736
+PUT requests:     768
+A14 overruns:     0
+Metrics written:  experiments_rerun/drr_ref.csv
+========================

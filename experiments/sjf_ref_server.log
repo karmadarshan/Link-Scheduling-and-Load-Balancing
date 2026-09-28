@@ -1,0 +1,13 @@
+Scheduling policy: sjf
+Serving directory: /tmp/tmp.jPI9V6XW8Y/server_files
+Server listening on 127.0.0.1:9000
+
+Received shutdown signal, draining...
+
+=== Shutdown summary ===
+Scheduler:        sjf
+GET requests:     760
+PUT requests:     744
+A14 overruns:     0
+Metrics written:  experiments/sjf_ref.csv
+========================

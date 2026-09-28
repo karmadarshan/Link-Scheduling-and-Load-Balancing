@@ -1,0 +1,19 @@
+{
+  "server": {
+    "ip": "127.0.0.1",
+    "port": 9000,
+    "server_threads": 4,
+    "client_threads": 8
+  },
+  "load_balancer": {
+    "ip": "127.0.0.1",
+    "port": 8000,
+    "health_interval_ms": 1000,
+    "backends": [
+      { "ip": "127.0.0.1", "port": 9001 },
+      { "ip": "127.0.0.1", "port": 9002 },
+      { "ip": "127.0.0.1", "port": 9003 },
+      { "ip": "127.0.0.1", "port": 9004 }
+    ]
+  }
+}

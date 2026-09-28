@@ -1,0 +1,14 @@
+Scheduling policy: rr
+Quantum: 4096 bytes
+Serving directory: /tmp/tmp.k4uouQahHE/server_files
+Server listening on 127.0.0.1:9000
+
+Received shutdown signal, draining...
+
+=== Shutdown summary ===
+Scheduler:        rr
+GET requests:     777
+PUT requests:     727
+A14 overruns:     4290
+Metrics written:  experiments/rr_ref.csv
+========================

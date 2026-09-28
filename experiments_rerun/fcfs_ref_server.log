@@ -1,0 +1,13 @@
+Scheduling policy: fcfs
+Serving directory: /tmp/tmp.eIwkpepTct/server_files
+Server listening on 127.0.0.1:9000
+
+Received shutdown signal, draining...
+
+=== Shutdown summary ===
+Scheduler:        fcfs
+GET requests:     761
+PUT requests:     743
+A14 overruns:     0
+Metrics written:  experiments_rerun/fcfs_ref.csv
+========================
